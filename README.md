@@ -4,7 +4,8 @@ This repository contains the official PyTorch implementations for the 2023 paper
 
 - *Single and Few-step Diffusion for Generative Speech Enhancement* [1]
 
-This repository builds upon our previous work: https://github.com/sp-uhh/sgmse and https://github.com/sp-uhh/sgmse-bbed
+This repository builds upon our previous work: https://github.com/sp-uhh/sgmse and https://github.com/sp-uhh/sgmse-bbed.
+Find audio examples here https://www.inf.uni-hamburg.de/en/inst/ab/sp/publications/crp.
 
 
 ## Installation
