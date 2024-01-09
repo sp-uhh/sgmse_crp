@@ -27,8 +27,7 @@ if __name__ == '__main__':
      parser = ArgumentParser()
      for parser_ in (base_parser, parser):
           parser_.add_argument("--backbone", type=str, choices=BackboneRegistry.get_all_names(), default="ncsnpp")
-          parser_.add_argument("--sde", type=str, choices=SDERegistry.get_all_names(), default="ouve")
-          parser_.add_argument("--git_branch", type=str, default="main2")     
+          parser_.add_argument("--sde", type=str, choices=SDERegistry.get_all_names(), default="bbed")
           parser_.add_argument("--nolog", action='store_true', help="Turn off logging (for development purposes)")
      temp_args, _ = base_parser.parse_known_args()
 
@@ -63,9 +62,9 @@ if __name__ == '__main__':
      
  
      if not args.nolog:
-          logger = WandbLogger(project="newloss", entity = 'bunlong', log_model=True, save_dir="logs")
+          logger = WandbLogger(project="enter project name here", entity = 'enter entity name here', log_model=True, save_dir="logs")
           logger.experiment.log_code(".")
-          savedir_ck = f'/data2/ncsnpp/logs/{logger.version}'
+          savedir_ck = f'/where to  save checkpoints?'
           if not os.path.isdir(savedir_ck):
                os.makedirs(os.path.join(savedir_ck))
      else:
