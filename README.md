@@ -1,4 +1,4 @@
-# SGMSE - Brownian Bridge with Exponential Diffusion Coefficient
+# Single and Few-step Diffusion for Generative Speech Enhancement
 
 This repository contains the official PyTorch implementations for the 2023 paper:
 
